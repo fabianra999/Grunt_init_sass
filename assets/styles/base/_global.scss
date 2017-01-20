@@ -1,0 +1,121 @@
+// Global CSS goes here
+
+/*====== font color ======*/
+.fc-blanco{
+  color: $blanco;
+}
+.fc-gris{
+  color: $gris;
+}
+.fc-azul{
+  color: $azul;
+}
+.fc-am{
+  color: $amarillo;
+}
+.fc-naranja{
+  color: $naranja;
+}
+.fc-verde{
+  color: $verde;
+}
+.fc-rojo{
+  color: $rojo;
+}
+/*====== font weight ======*/
+.fw-xs{
+  font-weight: 300;
+}
+.fw-sm{
+  font-weight: 500;
+}
+.fw-md{
+  font-weight: 700;
+}
+.fw-lg{
+  font-weight: 900;
+}
+.fw-b{
+  font-weight: bold;
+}
+
+/*====== font size ======*/
+.fs-xs{
+  font-size: 1.3rem;
+}
+.fs-sm{
+  font-size: 2.3rem;
+}
+.fs-md{
+  font-size: 3rem;
+}
+.fs-lg{
+  font-size: 3.3em;
+}
+
+/*====== font align ======*/
+.ta-c{
+  text-align: center;
+}
+.ta-l{
+  text-align: left;
+}
+.ta-r{
+  text-align: right;
+}
+
+/*====== font transform ======*/
+.tt-up{
+  text-transform: uppercase;
+}
+
+/*====== font transform ======*/
+.padding{
+  padding: 1rem;
+}
+
+/*====== font family ======*/
+.ff-o{
+  font-family: 'Open Sans';
+}
+.ff-t{
+  font-family: 'Tahoma';
+}
+
+/*====== Bootstrap ======*/
+
+.row-center{   // center col
+  display: table;
+  height: 100%;
+  > div{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+}
+
+
+
+.spans{
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+
+
+/*input*/
+input{
+  &:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+  }
+  &:-ms-autofill{
+    -ms-box-shadow: 0 0 0px 1000px white inset;
+  }
+  &:-moz-autofill{
+    -moz-box-shadow: 0 0 0px 1000px white inset;
+  }
+  -webkit-text-fill-color: $gris !important;
+  -ms-text-fill-color: $gris !important;
+  -moz-text-fill-color: $gris !important;
+}

@@ -1,0 +1,18 @@
+/* Function
+===================================================*/
+
+/* 1. Function px a em
+===================================================*/
+
+@function rem($elementoRem,$padreRem:16px){
+  $rem: ($elementoRem / $padreRem) * 1rem;
+  @return $rem;
+}
+
+
+/* 2. Image path (ruta a las imagenes)
+===================================================*/
+$pathImg: '../components/images/';
+@function img($img){
+  @return url($pathImg + $img);
+}

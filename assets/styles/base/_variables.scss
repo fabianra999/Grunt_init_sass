@@ -1,0 +1,39 @@
+// $varables: valor;
+// - tyene scout
+// - Interpolacion: saca hijo del padre  @at-root p{color: $tomato_1;}
+
+
+//               Ejempl0:
+// $var: 2;
+// $company: youtube;
+
+// .div-#{$company}:nth-child(#{$var}){
+//  background: red;
+//  &::before {
+//    content: "Bienvenido a #{$company}";
+//  }
+// }
+
+
+/* Varables
+===================================================*/
+
+//colores
+$rojo:       #932e30;
+$azul:       #2e8b9b;
+$verde:      #4cad33;
+$naranja:    #ef7d00;
+$amarillo:   #F29100;
+$blanco:     #ffffff;
+$negro:      #000000;
+$gris:       #50484d;
+$gris-c:     #dce2e8;
+
+$whatsapp:   #65a445;
+$facebook:   #253a81;
+$instagram:  #38619f;
+$mail:       #2e8b9b;
+
+//nav
+$nav-b:      #dbe0e6;
+$nav-bg:     #f4f2f3;

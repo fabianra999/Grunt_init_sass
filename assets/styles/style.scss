@@ -1,0 +1,25 @@
+// Import Base
+@import 'base/variables';
+@import 'base/placeholder';
+@import 'base/mixin';
+@import 'base/funciones';
+@import 'base/iteraciones';
+@import 'base/condicionales';
+@import 'base/common';
+
+@import 'base/global';
+@import 'base/fonts';
+
+// Import Components
+@import 'components/header';
+@import 'components/nav';
+@import 'components/footer';
+@import 'components/loader';
+
+// Import Layouts
+@import 'layouts/home';
+
+// Import Mobile
+@import 'mobile/m-style';
+
+
