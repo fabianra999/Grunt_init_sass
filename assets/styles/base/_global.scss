@@ -95,27 +95,9 @@
 }
 
 
-
-.spans{
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 0px;
-}
-
-
-
-/*input*/
-input{
-  &:-webkit-autofill{
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
-  }
-  &:-ms-autofill{
-    -ms-box-shadow: 0 0 0px 1000px white inset;
-  }
-  &:-moz-autofill{
-    -moz-box-shadow: 0 0 0px 1000px white inset;
-  }
-  -webkit-text-fill-color: $gris !important;
-  -ms-text-fill-color: $gris !important;
-  -moz-text-fill-color: $gris !important;
+/*====== clearfix ======*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

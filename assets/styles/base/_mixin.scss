@@ -34,3 +34,22 @@
     @media (min-width: 1024px)  { @content; }
   }
 }
+
+/* 2. centrado
+===================================================*/
+$v: true;
+$f: false;
+@mixin center($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}

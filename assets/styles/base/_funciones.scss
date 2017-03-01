@@ -16,3 +16,21 @@ $pathImg: '../components/images/';
 @function img($img){
   @return url($pathImg + $img);
 }
+
+
+/* 2. colores
+===================================================*/
+@function claro($color, $lighten){
+  $claro: lighten( $color, $lighten);
+  @return $claro;
+}
+
+@function oscuro($color, $darken){
+  $oscuro: darken( $color, $darken);
+  @return $oscuro;
+}
+
+@function tras($color, $alpha){
+  $tras: rgba( $color, ($alpha));
+  @return $tras;
+}

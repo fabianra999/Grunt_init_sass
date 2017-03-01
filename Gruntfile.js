@@ -7,7 +7,7 @@ module.exports = function (grunt) {
     sass: { // Begin Sass Plugin
       dist: {
         options: {
-          sourcemap: 'none',
+          sourcemap: 'auto', //mapa
         },
         files: [{
           expand: true,
@@ -46,6 +46,10 @@ module.exports = function (grunt) {
     },
     uglify: { // Begin JS Uglify Plugin
       build: {
+        options: {
+          sourceMap: true,
+          sourceMapName: 'path/to/sourcemap.map'
+        },
         src: ['assets/script/**/*.js'],
         dest: 'dist/script/script.min.js'
       }
